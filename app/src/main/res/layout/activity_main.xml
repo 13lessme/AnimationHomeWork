@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:background="@mipmap/hotpng">
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/TBLLT"
+    android:layout_marginBottom="200dp"
+    tools:ignore="uselessLeaf"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+    <TableRow>
+        <Button
+            android:layout_marginStart="40dp"
+            android:id="@+id/But_Frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Покадровая"
+            android:textColor="@color/RED"
+            android:layout_marginLeft="40dp" />
+
+        <Button
+            android:id="@+id/But_Tween"
+            android:layout_marginStart="140dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="преобразование"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:layout_marginLeft="160dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
